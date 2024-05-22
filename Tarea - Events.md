@@ -90,7 +90,7 @@ WHERE c.title = 'Concert Performance';
   - Captura
   ![2](image-2.png)
 
-## 3. Obtener las conferencias que se desarrollarán en Londres
+## 3. Obtener las conferencias que se desarrollarán en Miami
  - Sentencia:
 
   ```
@@ -118,14 +118,14 @@ LIMIT 3;
  - Captura
  ![4](image-4.png)
 
- ## 5. Seleccione todas las conferencias cuyo evento esté asociado al evento con ID 2 y ordenarlas por hora en orden descendente
+ ## 5. Seleccione todas las conferencias cuyo evento esté asociado al evento con ID 2 y ordenarlas por dia en orden descendente
  - Sentencia:
 
   ```
  SELECT * FROM conference
  WHERE event_id = 2
- ORDER BY hour DESC;
+ ORDER BY day DESC;
 
  ```
  - Captura
- ![5](image-5.png)
+ ![5](image.png)
