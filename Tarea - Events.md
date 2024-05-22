@@ -64,15 +64,8 @@ CREATE TABLE register (
   FOREIGN KEY (conference_id) REFERENCES conference(id)
 );
 ```
-## 1.  Obtener los asistentes a la conferencia "The Future of AI"
- - Sentencia:
-  ```
- SELECT m.fullname
-FROM member m
-JOIN register r ON m.id = r.member_id
-JOIN conference c ON r.conference_id = c.id
-WHERE c.title = 'The Future of AI';
-  ```
+
+  
  ## 1. Seleccionar todos los integrantes con edad mayor a 25 años, ordenados por nombre completo en orden ascendente.
   - Sentencia:
   ```
