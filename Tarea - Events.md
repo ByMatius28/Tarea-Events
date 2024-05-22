@@ -104,19 +104,19 @@ WHERE e.city = 'Miami';
   ![3](image-3.png)
 
 
-  ## 4. Seleccione todos los miembros cuya edad esté entre 25 y 28 años, ordenarlos por edad de forma ascendente
+  ## 4. Seleccione todos los miembros cuya edad esté entre 25 y 28 años, ordenarlos por edad de forma descendente
 
  - Sentencia:
 
   ```
 SELECT * FROM member
 WHERE age BETWEEN 25 AND 32
-ORDER BY age ASC
+ORDER BY age DESC
 LIMIT 3;
  ```
 
  - Captura
- ![4](image-4.png)
+![4](image-6.png)
 
  ## 5. Seleccione todas las conferencias cuyo evento esté asociado al evento con ID 2 y ordenarlas por dia en orden descendente
  - Sentencia:
